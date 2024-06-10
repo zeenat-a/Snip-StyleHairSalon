@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Inika';
+    src: url('fonts/Inika-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('fonts/Merriweather-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #FFF3EA; /* Set your desired background color here */
+    margin: 0; /* Remove default margin to prevent unwanted whitespace */
+    padding-top: 160px; /* Ensure content is not hidden behind the fixed navbar */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    background-color: #CEC7C0;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+    font-family: 'Inika', sans-serif;
+    text-align: left;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Inika', sans-serif;
+    text-align: center; 
+    margin-top: 80px;
+
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    font-family: 'Inika', sans-serif;
+    padding: 14px 17px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+
+.navbar-links a:hover {
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar-links .nav-bar {
+    background-color: black;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+.title-container {
+    text-align: center; /* Center text within the container */
+}
+
+.title-container h1 {
+    margin-bottom: 20px; /* Add some space below the header */
+}
+
+.title-image {
+    display: block;
+    margin: 0 auto 70px;
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+
+.services-container {
+    padding-top: 40px; /* Added padding-top (40px) for more space */
+}
+
+
+.service img {
+    width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.service {
+    margin-bottom: 20px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+}
+
+/* Apply the Inika font to all sections */
+.our-services, .our-team, .footer{
+    font-family: 'Inika', sans-serif;
+}
+
+
+.team-member img {
+    width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+
+.team-member {
+    margin-bottom: 20px; /* Add space between each team member */
+    padding: 10px; /* Add padding around each team member */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 8px; /* Add rounded corners */
+}
+
+.copyright {
+    text-align: left;
+    background-color: rgb(235, 235, 235);
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Hide the Book Appointment page by default */
+.book-appointment-page {
+    display: none;
+    /* Add styles for the appearance of the page */
+    /* You can adjust these styles as needed */
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+form {
+    padding-left: 20px; /* Adjust the padding-left value to move the form elements more to the right */
+}
+
+
+
